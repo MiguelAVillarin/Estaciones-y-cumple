@@ -1,0 +1,82 @@
+#fondo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.verano {
+    background-image: url(verano.png);
+}
+
+.otono {
+    background-image: url(otono.jpg);
+}
+
+.invierno {
+    background-image: url(invierno.png);
+}
+
+.primavera {
+    background-image: url(primavera.jpg);
+}
+
+#cuerpo {
+    display: flexbox;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    width: fit-content;
+    height: fit-content;
+    block-size: fit-content;
+    background-color: rgba(223, 223, 223, 0.444);
+    border: solid black 2px;
+    border-radius: 20px;
+    box-shadow: 3px 4px rgb(0, 0, 0);
+
+}
+
+#cumpleaños {
+    background-color: rgb(69, 174, 139);
+    border: solid black 2px;
+    border-radius: 20px;
+    min-height: 200px;
+    min-width: 500px;
+    max-height: 300px;
+    max-width: 500px;
+    text-align: center;
+    padding: 3%;
+    padding-bottom: 20px;
+    word-wrap: break-word;
+    margin-bottom: 30px;
+}
+
+#estacion {
+    text-align: center;
+    background-color: rgb(69, 109, 174);
+    border: solid black 2px;
+    border-radius: 20px;
+    min-height: 200px;
+    min-width: 500px;
+    max-height: 300px;
+    max-width: 500px;
+    padding: 3%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+#contadorCum {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#tarta{
+    width:100px;
+}
